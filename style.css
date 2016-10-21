@@ -1,0 +1,57 @@
+page {
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+#photo {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border: 1px solid black;
+    width: 50px;
+    height: 150px;
+}
+
+#header {
+    height: 25%;
+    width: 100%;
+    background-color: #3366ff;
+}
+
+#name {
+    position: relative;
+    left: 30%;
+}
+
+#name > hr {
+    position: relative;
+    width: 20%;
+    left: -42%;
+}
+
+.detail-list {
+    display: table;
+    list-style: none;
+}
+
+.detail-list > li {
+    display: table-row;
+}
+
+#contact {
+    position: relative;
+    left: 25%;
+    top: 2%;
+    height: 50%;
+}
+
+#links {
+    position: relative;
+    left: 50%;
+    top: -80%;
+    height: 75%;
+}
