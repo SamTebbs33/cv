@@ -2,25 +2,172 @@
     <head>
         <title>Samuel Tebbs' CV</title>
         <link rel="stylesheet" href="style.css"/>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/985131d10a.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
     </head>
     <body>
-        <page size="A4">
+        <page>
             <div id="header">
                 <img id="photo" src="photo.jpg">
                 <div id="name">
                     <h1>Sam Tebbs</h1>
                     <hr/>
                 </div>
-                <ul id="contact" class="detail-list">
-                    <li id="email"><i class="fa fa-envelope" aria-hidden="true"></i><span> samuel.tebbs@gmail.com</span></li>
-                    <li id="phone"><i class="fa fa-phone" aria-hidden="true"></i><span> (+44)07706 744400</span></li>
+                <ul id="contact" class="plain-list">
+                    <li id="email"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp<a href="mailto:samuel.tebbs@gmail.com">samuel.tebbs@gmail.com</a></li>
+                    <li id="phone"><i class="fa fa-phone" aria-hidden="true"></i> (+44)07706 744400</li>
                 </ul>
-                <ul id="links" class="detail-list">
-                    <li id="site"><i class="fa fa-link" aria-hidden="true"></i><span> samtebbs33.github.io</span></li>
-                    <li id="github"><i class="fa fa-github" aria-hidden="true"></i><span> SamTebbs33</span></li>
-                    <li id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span> VivaDaylight3</span></li>
+                <ul id="links" class="plain-list">
+                    <li id="site"><i class="fa fa-link" aria-hidden="true"></i>&nbsp<a href="https://samtebbs33.github.io">samtebbs33.github.io</a></li>
+                    <li id="github"><i class="fa fa-github" aria-hidden="true"></i>&nbsp<a href="https://github.com/SamTebbs33">SamTebbs33</a></li>
+                    <li id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp<a href="https://twitter.com/VivaDaylight3">@VivaDaylight3</a></li>
                 </ul>
+            </div>
+            <hr />
+            <div id="content">
+                <br />
+                <div id="projects" class="content-box">
+                    <h2>Projects</h2>
+                    <hr/>
+                    <ul class="plain-list">
+                        <li>
+                            <h3><i class="fa fa-file-text" aria-hidden="true"></i> Ash</h3>
+                            A programming language that compiles to JVM bytecode
+                            and aims to modernise and condense the semantics and syntax of Java.
+                        </li>
+                        <br/>
+                        <li>
+                            <h3><i class="fa fa-desktop" aria-hidden="true"></i> AsmOS</h3>
+                            An experimental operating system written in x86 Assembly.
+                        </li>
+                        <br/>
+                        <li>
+                            <h3><i class="fa fa-code" aria-hidden="true"></i> Elk</h3>
+                            A web templating language that compiles down to HTML.
+                        </li>
+                        <br/>
+                        <li>
+                            <h3><i class="fa fa-code-fork" aria-hidden="true"></i> Baldr</h3>
+                            A simple and functional version control system.
+                        </li>
+                        <br/>
+                        <li>
+                            <h3><i class="fa fa-terminal" aria-hidden="true"></i> vim-exec</h3>
+                            An extensible vim plugin that executes the current file being edited.
+                        </li>
+                    </ul>
+                </div>
+                <div id="education" class="content-box">
+                    <h2>Education</h2>
+                    <hr />
+                    <ul class="plain-list">
+                        <li>
+                            <h3><i class="fa fa-university" aria-hidden="true"></i> University of Birmingham, 2015 - Present</h3>
+                            Studying for a MSci and completed first year with
+                            1st class grades in several modules such as "Software Engineering",
+                             "Software Workshop" and "Robot Programming". Expecting to graduate in 2020.
+                        </li>
+                        <br />
+                        <li>
+                            <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Dartford Grammar School, 2013 - 2015</h3>
+                            Studied the International Baccalaureate and achieved
+                             37 out of 45 possible points with a notable 3 out of
+                             3 from the Extended Essay and Theory of Knowledge.
+                             <br />
+                             <br />
+                             <ul>
+                                <li>
+                                    <b>Extended Essay: </b>A
+                                </li>
+                                <li>
+                                    <b>Theory of Knowledge: </b>A
+                                </li>
+                                <li>
+                                    <b>Mathematics SL: </b>5
+                                </li>
+                                <li>
+                                    <b>French SL: </b>6
+                                </li>
+                                <li>
+                                    <b>English A SL: </b>5
+                                </li>
+                                <br />
+                                <li>
+                                    <b>Computer Science HL: </b>6
+                                </li>
+                                <li>
+                                    <b>Biology HL: </b>6
+                                </li>
+                                <li>
+                                    <b>Psychology HL: </b>6
+                                </li>
+                             </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="experience" class="content-box">
+                    <h2>Experience</h2>
+                    <hr />
+                    <ul class="plain-list">
+                        <li>
+                            <h3><i class="fa fa-search" aria-hidden="true"></i> Majestic SEO, July 2016 - September 2016</h3>
+                            Had a summer internship with Majestic SEO, during which
+                            I worked in a team to produce various web apps that
+                            demonstrate the power and size of the Majestic section
+                             database and API. During the internship I learnt a
+                             vast amount about both frontend and backend web development,
+                             and the various practices used for ensuring a quailty
+                             product is deployed on time and in a working condition. I mainly worked on the backend and frontend JavaScript.
+                        </li>
+                        <br />
+                        <li>
+                            <h3><i class="fa fa-handshake-o" aria-hidden="true"></i> Young Kent Me2 program, 2013 - 2014</h3>
+                            During the 20-week program I worked with a young disabled
+                             teenager to help them settle in to and enjoy being in a local
+                             scout club. Before the start of the program I underwent
+                             several training sessions that taught me about various
+                             disabilities and advised me on how to best handle certain situations.
+                        </li>
+                        <br />
+                        <li>
+                            <h3><i class="fa fa-laptop" aria-hidden="true"></i> Hackathons</h3>
+                            Since the start of my first year of university I have
+                            participated in more than 10 hackathons across the country.
+                            My teams and I have won prizes
+                            at several, such as AstonHack 2015, Hackference 2015
+                             and HackTheMidlands.
+                        </li>
+                    </ul>
+                </div>
+                <div id="skills" class="content-box">
+                    <h2>Skills</h2>
+                    <hr />
+                    <br />
+                    <span class="skill-box">Java</span>
+                    <span class="skill-box">Git</span>
+                    <span class="skill-box">Scala</span>
+                    <span class="skill-box">Node.js</span>
+                    <span class="skill-box">Vim</span>
+                    <span class="skill-box">Haskell</span>
+                    <br />
+                    <br />
+                    <span class="skill-box">C</span>
+                    <span class="skill-box">REST</span>
+                    <span class="skill-box">x86 Assembly</span>
+                    <span class="skill-box">AWS</span>
+                    <span class="skill-box">Jetty</span>
+                    <br />
+                    <br />
+                    <span class="skill-box">HTML</span>
+                    <span class="skill-box">CSS</span>
+                    <span class="skill-box">JavaScript</span>
+                    <span class="skill-box">JQuery</span>
+                    <span class="skill-box">D3</span>
+                    <br />
+                    <br />
+                    <span class="skill-box">Swedish</span>
+                    <span class="skill-box">French</span>
+                </div>
             </div>
         </page>
     </body>

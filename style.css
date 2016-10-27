@@ -5,61 +5,123 @@ page {
     margin: 0 auto;
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    font-family: 'Roboto', serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#header > ul > li {
+    color: #126099;
+    font-weight: bold;
 }
 
 #photo {
     position: relative;
     left: 20px;
-    top: 25px;
+    top: 15px;
     border: 1px solid black;
+    border-radius: 13px;
     width: 150px;
     height: 150px;
 }
 
 #header {
-    height: 200px;
+    height: 180px;
     width: 100%;
-    background-color: #3366ff;
+}
+
+#header > .plain-list > li > span {
+    color: white;
 }
 
 #name {
     position: relative;
-    top: -140px;
+    top: -150px;
     left: 200px;
+}
+
+page > hr {
+    width: 600px;
 }
 
 #name > hr {
     position: relative;
     width: 175px;
     left: -320px;
+    top: -10px;
     border-color: black;
     background-color: black;
     color: black;
 }
 
-.detail-list {
+.plain-list {
     display: table;
     list-style: none;
 }
 
-.detail-list > li {
+.plain-list > li {
     display: table-row;
 }
 
-.detail-list > li > span {
+.plain-list > li > span {
     color: white;
 }
 
 #contact {
     position: relative;
     left: 150px;
-    top: -135px;
-    height: 80px;
+    top: -160px;
+    height: 97px;
 }
 
 #links {
     position: relative;
     left: 375px;
-    top: -300px;
+    top: -330px;
     height: 160px;
+}
+
+.content-box {
+    overflow: hidden;
+    float: left;
+    width: 45%;
+    height: 38%;
+    line-height: 90%;
+    padding-left: 10px;
+}
+
+#experience {
+    height: 50%;
+}
+
+#skills {
+    height: 185px;
+}
+
+#achievements {
+    position: relative;
+}
+
+.content-box > h2 {
+    padding-left: 20px;
+}
+
+.content-box > hr {
+    position: relative;
+    width: 40%;
+    left: -100px;
+}
+
+.content-box > ul > li {
+    font-size: 80%;
+}
+
+.skill-box {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px 4px 2px 4px;
+    font-size: 13px;
+    font-weight: bold;
 }
