@@ -6,6 +6,8 @@ page {
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     font-family: 'Roboto', serif;
+    background-image: url("background.svg");
+    background-size: cover;
 }
 
 a:link {
