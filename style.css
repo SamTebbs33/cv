@@ -115,9 +115,22 @@ page > hr {
 }
 
 .skill-box {
-    border: 1px solid black;
+    border-width: 2px;
+    border-style: solid;
     border-radius: 3px;
     padding: 2px 4px 2px 4px;
     font-size: 13px;
     font-weight: bold;
+}
+
+.advanced {
+    border-color: #2549db;
+}
+
+.intermediate {
+    border-color: #16af5b;
+}
+
+.basic {
+    border-color: #e55909;
 }
