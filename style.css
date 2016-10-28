@@ -88,7 +88,7 @@ page > hr {
 .content-box {
     overflow: hidden;
     float: left;
-    width: 45%;
+    width: 48%;
     height: 38%;
     line-height: 90%;
     padding-left: 10px;
@@ -100,6 +100,10 @@ page > hr {
 
 #skills {
     height: 185px;
+}
+
+#skill-boxes {
+    padding-left: 50px;
 }
 
 #achievements {
