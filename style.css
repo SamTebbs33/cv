@@ -14,9 +14,18 @@ a:link {
     text-decoration: none;
 }
 
-#header > ul > li {
+#links {
+    text-align: center;
+    position: relative;
+    line-height: 30px;
+    top: 45px;
+}
+
+#links > span {
     color: #126099;
     font-weight: bold;
+    padding-left: 34px;
+    padding-right: 34px;
 }
 
 #photo {
@@ -30,18 +39,14 @@ a:link {
 }
 
 #header {
-    height: 180px;
+    height: 200px;
     width: 100%;
-}
-
-#header > .plain-list > li > span {
-    color: white;
 }
 
 #name {
     position: relative;
-    top: -150px;
-    left: 200px;
+    text-align: center;
+    top: 30px;
 }
 
 page > hr {
@@ -51,7 +56,6 @@ page > hr {
 #name > hr {
     position: relative;
     width: 175px;
-    left: -320px;
     top: -10px;
     border-color: black;
     background-color: black;
@@ -69,20 +73,6 @@ page > hr {
 
 .plain-list > li > span {
     color: white;
-}
-
-#contact {
-    position: relative;
-    left: 150px;
-    top: -160px;
-    height: 97px;
-}
-
-#links {
-    position: relative;
-    left: 375px;
-    top: -330px;
-    height: 160px;
 }
 
 .content-box {
