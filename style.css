@@ -22,10 +22,13 @@ a:link {
 }
 
 #links > span {
-    color: #126099;
     font-weight: bold;
     padding-left: 34px;
     padding-right: 34px;
+}
+
+.link {
+    color: #126099;
 }
 
 #photo {
