@@ -1,0 +1,143 @@
+page {
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    font-family: 'Roboto', serif;
+    background-image: url("background.svg");
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+	color:#126099;
+}
+
+#links {
+    text-align: center;
+    position: relative;
+    line-height: 30px;
+    top: 45px;
+}
+
+#links > span {
+    font-weight: bold;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.link {
+    color: #126099;
+}
+
+#photo {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 150px;
+    height: 150px;
+}
+
+#header {
+    height: 200px;
+    width: 100%;
+}
+
+#name {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+page > hr {
+    width: 600px;
+}
+
+#name > hr {
+    position: relative;
+    width: 175px;
+    top: -10px;
+    border-color: black;
+    background-color: black;
+    color: black;
+}
+
+.plain-list {
+    display: table;
+    list-style: none;
+}
+
+.plain-list > li {
+    display: table-row;
+}
+
+.plain-list > li > span {
+    color: white;
+}
+
+.content-box {
+    overflow: hidden;
+    float: left;
+    width: 48%;
+    height: 38%;
+    line-height: 90%;
+    padding-left: 10px;
+}
+
+#experience {
+    height: 50%;
+}
+
+#skills {
+    height: 245px;
+}
+
+#skill-boxes {
+    padding-left: 50px;
+}
+
+#achievements {
+    position: relative;
+}
+
+.content-box > h2 {
+    padding-left: 20px;
+}
+
+.content-box > hr {
+    position: relative;
+    width: 40%;
+    left: -100px;
+}
+
+.content-box > ul > li {
+    font-size: 80%;
+}
+
+.skill-box {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 2px 4px 2px 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.advanced {
+    border-color: #2549db;
+}
+
+.intermediate {
+    border-color: #16af5b;
+}
+
+.basic {
+    border-color: #e55909;
+}
