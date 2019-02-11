@@ -92,11 +92,11 @@ page > hr {
 }
 
 #experience {
-    height: 50%;
+    //height: 50%;
 }
 
 #skills {
-    height: 245px;
+    height: 200px;
 }
 
 #skill-boxes {
@@ -111,11 +111,6 @@ page > hr {
     padding-left: 20px;
 }
 
-.content-box > hr {
-    position: relative;
-    width: 40%;
-    left: -100px;
-}
 
 .content-box > ul > li {
     font-size: 80%;
